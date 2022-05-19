@@ -1,1 +1,0 @@
-print("test.lua has been loaded!")

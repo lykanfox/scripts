@@ -282,7 +282,7 @@ local on_aim_miss = function(data)
     if not contains(ui.get(menu.entries.options), items[1]) then return end
 
     if data.reason == "death" then
-        if carp.vars.local_player:is_alive() then
+        if vars.local_player:is_alive() then
             data.reason = "player death"
         else
             data.reason = "local death"
